@@ -2,14 +2,14 @@
 import os
 os.system("clear")
 
-first_name = "John"
-age = 18
-fav_pizza = {
-    "John": "pepperoni",
-    "Bob":"mushrom",
-    "Mary": "cheese"
-}
-name = True
 
-print (fav_pizza["Bob"])
+num1 = input("Type number 1:")
+os.system("clear")
+
+print("Number 1 is: " + num1)
+num2 = input("\nType number 2:")
+os.system("clear")
+
+sum = int(num1) + int(num2)
+print('Sum of {0} and {1} is {2}'.format(num1,num2,sum))
 
